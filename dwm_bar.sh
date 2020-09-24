@@ -54,23 +54,23 @@ do
     # dispstr="$dispstr$(dwm_alarm)"
     # dispstr="$dispstr$(dwm_transmission)"
     # dispstr="$dispstr$(dwm_cmus)"
-    dispstr="$dispstr$(dwm_mpc)"
+    #dispstr="$dispstr$(dwm_mpc)"
     # dispstr="$dispstr$(dwm_spotify)"
     dtspstr="$dispstr$(dwm_resources)"
     # dispstr="$dispstr$(dwm_battery)"
     # dispstr="$dispstr$(dwm_mail)"
     # dispstr="$dispstr$(dwm_backlight)"
-    dispstr="$dispstr$(dwm_alsa)"
+    # dispstr="$dispstr$(dwm_alsa)"
     # dispstr="$dispstr$(dwm_pulse)"
     # dispstr="$dispstr$(dwm_weather)"
     # dispstr="$dispstr$(dwm_vpn)"
     #dispstr="$dispstr$(dwm_networkmanager)"
     # dispstr="$dispstr$(dwm_keyboard)"
     # dispstr="$dispstr$(dwm_ccurse)"
-    dispstr="$dispstr$(dwm_date)"
+    # dispstr="$dispstr$(dwm_date)"
     #dispstr="$dispstr$(dwm_loadavg)"
-
-    xsetroot -name "$dispstr"
+    #xsetroot -name "$dispstr"
+    xsetroot -name "$(dwm_resources)$(dwm_alsa)$(dwm_date)"
     sleep 1
 
 done
